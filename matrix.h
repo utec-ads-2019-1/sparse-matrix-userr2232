@@ -53,6 +53,7 @@ public:
         }
     }
 
+    // Osea nunca se va a settear un valor 0
     void set(unsigned row, unsigned column, T value) {
         if(value == 0) return;
         Node<T> *current = this->root;
